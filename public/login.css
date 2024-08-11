@@ -1,0 +1,81 @@
+body {
+     background-color: #f0f4f8;
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     background-image: url(assets/bg.jpg);
+     background-size: cover;
+     background-position: center;
+}
+
+.login-container {
+     background-color: #ffffff;
+     padding: 2em;
+     border-radius: 10px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+     width: 400px;
+     text-align: center;
+}
+
+h1 {
+     color: #333;
+     margin-bottom: 1em;
+}
+
+.errorMessage {
+     color: red;
+     font-size: 0.9em;
+     margin-bottom: 1em;
+}
+
+.logoutMessage {
+     color: #28a745;
+     font-size: 0.9em;
+     margin-bottom: 1em;
+}
+
+.input-group {
+     margin-bottom: 1em;
+     text-align: left;
+}
+
+label {
+     display: block;
+     margin-bottom: 0.5em;
+     color: #555;
+}
+
+input {
+     width: 100%;
+     padding: 0.5em;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+input:focus {
+     border-color: #007bff;
+     outline: none;
+}
+
+.btn {
+     background-color: #52128a;
+     color: white;
+     padding: 0.7em;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     width: 100%;
+}
+
+.btn:hover {
+     background-color: #451289;
+     color: white;
+}
+
+.message {
+     margin-top: 1em;
+     font-size: 0.9em;
+}
